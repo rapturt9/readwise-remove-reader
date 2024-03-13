@@ -1,0 +1,4 @@
+:host > *,
+:root {
+  --focus-indicator-width: 0px !important;
+}

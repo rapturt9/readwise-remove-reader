@@ -1,0 +1,17 @@
+{
+    "name": "Readwise remove tracking line",
+    "description": "",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "://.read.readwise.io/*"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ],
+    "permissions": []
+}
