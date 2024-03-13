@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "://.read.readwise.io/*"
+                "https://read.readwise.io/*"
             ],
             "css": [
                 "styles.css"
